@@ -1,0 +1,2 @@
+[23-Apr-2014 20:21:36 UTC] PHP Fatal error:  Call to undefined function clear_chts() in /home/vwrencher/public_html/notime4jive/index.php on line 19
+[23-Apr-2014 20:21:58 UTC] PHP Fatal error:  Call to undefined function clear_chts() in /home/vwrencher/public_html/notime4jive/index.php on line 19

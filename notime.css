@@ -1,0 +1,98 @@
+html, body {height: 100%; margin: 0;}
+body
+{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+nav
+{
+	color: #555;
+	padding-left: 10px;
+	background-color: #EEE;
+}
+
+.par
+{
+	padding: 30px;
+	background-color: #333;
+	color: #EEE;
+	font-size: 12pt;
+}
+@media only screen and (max-device-width: 480px)
+{
+	body
+	{
+		font-size: 32pt;
+	}
+	nav
+	{
+		height: 60px;
+	}
+	.par
+	{
+		font-size: 11pt;
+		text-align: center;
+	}
+}
+header
+{
+	color: #333;
+	background-color: #999;
+}
+body
+{
+	background-color: #CCC;
+	height: 100%;
+}
+a
+{
+	font-weight: bold;
+	color: #555;
+	padding-left: 10px;
+	background-color: #EEE;
+}
+h1
+{
+	padding-left: 20px;
+	font-weight:bold;
+	font-style:italic;
+}
+.wrap
+{
+	min-height: 100%;
+}
+.parbox
+{
+	overflow: auto;
+	padding-bottom: 200px;
+}
+p
+{
+	padding: 30px;
+	background-color: #333;
+	color: #EEE;
+}
+
+.textField
+{
+	background-color: #EEE;
+	color: #666;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-style: none;
+	padding-left: 10px;
+	padding: 5px;
+}
+.footer
+{
+	position: relative;
+	margin-top: -200px;
+	clear: both;
+	padding-bottom: 10px;
+}
+footer
+{
+	padding-top: 30px;
+	color: #555;
+	padding-left: 10px;
+	background-color: #EEE;
+	padding-bottom: 60px;
+}
