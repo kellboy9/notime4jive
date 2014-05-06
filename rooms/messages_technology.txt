@@ -1,5 +1,0 @@
-<b>anon: </b>now you can <span style='color: #2f2'>>greentext after the arrow</span>
-<b>anon: </b><span style='color: #2f2'>>implying you couldn't do that before</span>
-<b>anon: </b>it's almost like you <span style='color: #2f2'>>don't believe in php</span>
-<b>anon: </b><span style='color: #2f2'>> lel</span>
-<b><span style='color: #f55'>Admin</span>: </b>>admin can't greentext

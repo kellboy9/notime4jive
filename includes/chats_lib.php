@@ -122,10 +122,14 @@ function write_chats_and_pictures($filename)
 			if($_FILES["file"]["size"] > 0)
 			{
 				$img = true;
-				if(move_uploaded_file($_FILES["file"]["tmp_name"], "/images/" . $_FILES["file"]["name"]))
+				if(is_uploaded_file($_FILES['file']['tmp_name']))
 					echo "image uploaded! yay!" . "\n";
 				else
 					echo "image not uploaded! fuck!" . "\n";
+				if(move_uploaded_file($_FILES["file"]["tmp_name"], "images/" . $_FILES["file"]["name"]))
+					echo "image moved! yay!" . "\n";
+				else
+					echo "image not moved! fuck!" . "\n";
 			}
 			/*else
 			{ 
@@ -168,7 +172,7 @@ function write_chats_and_pictures($filename)
 					if($img)
 					{
 						$parts = explode('>', rtrim($_POST['ChatIn']));
-						fwrite($handle, "<b>anon: </b>" . $parts[0] . "<span style='color: #2f2'>" . ">" . $parts[1] . "</span>" . '  <img src="/images/' . $_FILES["file"]["name"] . '">' . "\n");
+						fwrite($handle, "<b>anon: </b>" . $parts[0] . "<span style='color: #2f2'>" . ">" . $parts[1] . "</span>" . '  <img src="images/' . $_FILES["file"]["name"] . '">' . "\n");
 					}
 					else
 					{
@@ -180,7 +184,7 @@ function write_chats_and_pictures($filename)
 				{
 					if($img)
 					{
-						fwrite($handle, "<b>anon: </b>" . $_POST['ChatIn'] . '  <img src="/images/' . $_FILES["file"]["name"] . '">' . "\n");
+						fwrite($handle, "<b>anon: </b>" . $_POST['ChatIn'] . '  <img src="images/' . $_FILES["file"]["name"] . '">' . "\n");
 					}
 					else
 					{

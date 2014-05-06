@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Keller Hood</title>
 <link type="text/css" rel="stylesheet" href="../notime.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript" /></script>
 
 </head>
 
@@ -14,7 +15,7 @@
 
 <div class="wrap">
 
-<a href="http://ahswebtech.org/notime4jive/rooms/tv_and_animation.php" style="background-color: #CCC;">[ update ]</a>
+<a href="./tv_and_animation.php" style="background-color: #CCC;">[ update ]</a>
 
 <div id="parbox" class="parbox">
 <?php include '../includes/chats_lib.php';

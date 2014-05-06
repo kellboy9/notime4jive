@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Keller Hood</title>
 <link type="text/css" rel="stylesheet" href="../notime.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript" /></script>
 
 </head>
 
@@ -14,7 +15,7 @@
 
 <div class="wrap">
 
-<a href="http://ahswebtech.org/notime4jive/rooms/sports.php" style="background-color: #CCC;">[ update ]</a>
+<a href="./sports.php" style="background-color: #CCC;">[ update ]</a>
 
 <div id="parbox" class="parbox">
 <?php include '../includes/chats_lib.php';
@@ -26,7 +27,7 @@ limit_chats("messages_sports.txt", 6);
 </div>
 
 <div class="footer">
-<form action="" method="get" id="ChatForm">
+<form action="" method="POST" id="ChatForm">
 <input name="NameIn" type="text" maxlength="20" id="NameIn" class="textField" value="Name (optional)" onclick="this.select()"/>
 <input name="ChatIn" type="text" maxlength="50" id="ChatIn" class="textField" value="Type here to chat!" onclick="this.select()"/>
 <input type="submit" value="Submit"/>

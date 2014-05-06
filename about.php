@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Keller Hood</title>
 <link type="text/css" rel="stylesheet" href="notime.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript" /></script>
 
 </head>
 
@@ -27,6 +28,7 @@ Basic rules:
 <li>You will only be able to see six messages at a time in any given chatroom, so make your message count!</li>
 <li>Your messages are capped at 50 characters, and names are capped at 20.</li>
 <li>Assholes are capped immediately.</li>
+<li>Images can be posted in TV and Animation.</li>
 </ul>
 
 This was written as a small project by Keller in Mr. Wrencher's Web Technologies class; it uses mostly PHP, and CSS for styling. Source is currently unavailable, but I will host it if someone asks. <br />
