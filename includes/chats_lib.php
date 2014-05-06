@@ -52,48 +52,48 @@ function write_chats($filename)
 	if($handle)
 	{
 		$green = false;
-		if(!empty($_GET['ChatIn']))
+		if(!empty($_POST['ChatIn']))
 		{
-			if (strpos($_GET['ChatIn'], ">") !== false)
+			if (strpos($_POST['ChatIn'], ">") !== false)
 			{
 				$green = true;
 			}
-			if((!empty($_GET['NameIn']) && ($_GET['NameIn'] !== "Name (optional)")))
+			if((!empty($_POST['NameIn']) && ($_POST['NameIn'] !== "Name (optional)")))
 			{
-				if($_GET['NameIn'] === "##Admin")
+				if($_POST['NameIn'] === "##Admin")
 				{
-					fwrite($handle, "<b><span style='color: #f55'>Admin</span>: </b>" . $_GET['ChatIn'] . "\n");
+					fwrite($handle, "<b><span style='color: #f55'>Admin</span>: </b>" . $_POST['ChatIn'] . "\n");
 				}
-				else if($_GET['NameIn'] === "##Anon")
+				else if($_POST['NameIn'] === "##Anon")
 				{
-					fwrite($handle, "<b><span style='color: #5f5'>Anon</span>: </b>" . $_GET['ChatIn'] . "\n");
+					fwrite($handle, "<b><span style='color: #5f5'>Anon</span>: </b>" . $_POST['ChatIn'] . "\n");
 				}
-				else if($_GET['NameIn'] === "##Gold")
+				else if($_POST['NameIn'] === "##Gold")
 				{
-					fwrite($handle, "<b><span style='color: #ff5'>Gold</span>: </b>" . $_GET['ChatIn'] . "\n");
+					fwrite($handle, "<b><span style='color: #ff5'>Gold</span>: </b>" . $_POST['ChatIn'] . "\n");
 				}
-				else if($_GET['NameIn'] === "##Mod")
+				else if($_POST['NameIn'] === "##Mod")
 				{
-					fwrite($handle, "<b><span style='color: #55f'>Mod</span>: </b>" . $_GET['ChatIn'] . "\n");
+					fwrite($handle, "<b><span style='color: #55f'>Mod</span>: </b>" . $_POST['ChatIn'] . "\n");
 				}
-				else if($_GET['NameIn'] === "##Based")
+				else if($_POST['NameIn'] === "##Based")
 				{
-					fwrite($handle, "<marquee><b><span style='color: #55f'>Lil' B</span>: </b>" . "#" . $_GET['ChatIn'] . "</marquee>" . "\n");
+					fwrite($handle, "<marquee><b><span style='color: #55f'>Lil' B</span>: </b>" . "#" . $_POST['ChatIn'] . "</marquee>" . "\n");
 				}
 				else
 				{
-					fwrite($handle, "<b>" . $_GET['NameIn'] . ": </b>" . $_GET['ChatIn'] . "\n");
+					fwrite($handle, "<b>" . $_POST['NameIn'] . ": </b>" . $_POST['ChatIn'] . "\n");
 				}
 			}
 			else
 			{
 				if($green)
 				{
-					$parts = explode('>', rtrim($_GET['ChatIn']));
+					$parts = explode('>', rtrim($_POST['ChatIn']));
 					fwrite($handle, "<b>anon: </b>" . $parts[0] . "<span style='color: #2f2'>" . ">" . $parts[1] . "</span>" . "\n");
 				}
 				else
-					fwrite($handle, "<b>anon: </b>" . $_GET['ChatIn'] . "\n");
+					fwrite($handle, "<b>anon: </b>" . $_POST['ChatIn'] . "\n");
 			}
 		}
 	}
@@ -210,7 +210,7 @@ function limit_chats($filename, $num)
 		$line = fgets($handle);
 		$linecount++;
 	}
-	if(!empty($_GET['ChatIn']))
+	if(!empty($_POST['ChatIn']))
 	{
 		if($linecount > $num)
 		{

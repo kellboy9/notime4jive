@@ -40,13 +40,13 @@ limit_chats("messages_technology.txt", 6);
 (c) keller hood & ethan grantham 2014
 </footer>
 
-<script>
+<!--<script>
 $("#ChatIn").keyup(function(event) {
 	if (event.keyCode == 13) {
 		this.form.submit();
 		return false;
 	 }
-});
+});-->
 </script>
 
 </body>
