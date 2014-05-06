@@ -28,7 +28,8 @@ Basic rules:
 <li>You will only be able to see six messages at a time in any given chatroom, so make your message count!</li>
 <li>Your messages are capped at 50 characters, and names are capped at 20.</li>
 <li>Assholes are capped immediately.</li>
-<li>Images can be posted in TV and Animation.</li>
+<li>Images can be posted in TV and Animation - only if you're anonymous.</li>
+<li>Anons can also <span style="color:#2f2;">&gt;greentext</span></li>
 </ul>
 
 This was written as a small project by Keller in Mr. Wrencher's Web Technologies class; it uses mostly PHP, and CSS for styling. Source is currently unavailable, but I will host it if someone asks. <br />
