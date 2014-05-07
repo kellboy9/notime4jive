@@ -4,8 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Keller Hood</title>
 <link type="text/css" rel="stylesheet" href="notime.css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript" /></script>
-
 </head>
 
 <body>
@@ -34,6 +32,8 @@ Basic rules:
 
 This was written as a small project by Keller in Mr. Wrencher's Web Technologies class; it uses mostly PHP, and CSS for styling. Source is currently unavailable, but I will host it if someone asks. <br />
 If you have a question, comment, or concern, please refer to the <a href="contact.php" style="background-color:#333; color: #EEE; padding-left:0;">Contact</a> page.
+
+I, The Admin, am NOT responsible for any comments, images, or related material that is posted here on this site. I own none of the intellectual (or other) property that is displayed on this website.
 </div>
 
 
