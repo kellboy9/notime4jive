@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="sports.php" server="192.186.216.131" local="130439593200000000" remote="130439593200000000" />
-<file name="video_games.php" server="192.186.216.131" local="130439593800000000" remote="130439593800000000" />
-<file name="music.php" server="192.186.216.131" local="130439583000000000" remote="130439583000000000" />
-<file name="tv_and_animation.php" server="192.186.216.131" local="130439592600000000" remote="130439592600000000" />
-<file name="technology.php" server="192.186.216.131" local="130439593200000000" remote="130439593200000000" />
-<file name="error_log" server="192.186.216.131" local="130439583000000000" remote="130439583000000000" />
-<file name="error_log" server="H:/WebTech8/Unit 6/" local="130437871200000000" remote="130437871200000000" />
+<file name="sports.php" server="192.186.216.131" local="130459535092012483" remote="130459465200000000" />
+<file name="video_games.php" server="192.186.216.131" local="130459535410000000" remote="130459465200000000" />
+<file name="music.php" server="192.186.216.131" local="130459534960917055" remote="130459465200000000" />
+<file name="tv_and_animation.php" server="192.186.216.131" local="130459580855585037" remote="130459508400000000" />
+<file name="technology.php" server="192.186.216.131" local="130459533833558875" remote="130459465200000000" />
 <file name="music.php" server="H:/WebTech8/Unit 6/" local="130439653636689520" remote="130439653630000000" />
 <file name="sports.php" server="H:/WebTech8/Unit 6/" local="130439653637002022" remote="130439653630000000" />
 <file name="technology.php" server="H:/WebTech8/Unit 6/" local="130439653637314524" remote="130439653630000000" />
 <file name="tv_and_animation.php" server="H:/WebTech8/Unit 6/" local="130439583000000000" remote="130439583000000000" />
 <file name="video_games.php" server="H:/WebTech8/Unit 6/" local="130439653637939528" remote="130439653630000000" />
-<file name="error_log.txt" server="192.186.216.131" local="130434402600000000" remote="130434402600000000" />
-<file name="log.txt" server="192.186.216.131" local="130434402600000000" remote="130434402600000000" />
-<file name="messages_music.txt" server="192.186.216.131" local="130439591400000000" remote="130439591400000000" />
-<file name="messages_sports.txt" server="192.186.216.131" local="130439591400000000" remote="130439591400000000" />
-<file name="messages_technology.txt" server="192.186.216.131" local="130439591400000000" remote="130439591400000000" />
-<file name="messages_tv_and_animation.txt" server="192.186.216.131" local="130439595000000000" remote="130439595000000000" />
-<file name="messages_video_games.txt" server="192.186.216.131" local="130439591400000000" remote="130439591400000000" />
+<file name="log.txt" server="192.186.216.131" local="130434402600000000" remote="130453439400000000" />
+<file name="messages_music.txt" server="192.186.216.131" local="130446526800000000" remote="130446526800000000" />
+<file name="messages_sports.txt" server="192.186.216.131" local="130446514800000000" remote="130446533400000000" />
+<file name="messages_technology.txt" server="192.186.216.131" local="130440678000000000" remote="130446533400000000" />
+<file name="messages_tv_and_animation.txt" server="192.186.216.131" local="130446517800000000" remote="130446533400000000" />
+<file name="messages_video_games.txt" server="192.186.216.131" local="130440292200000000" remote="130446533400000000" />
+<file name="error_log" server="192.186.216.131" local="130446524400000000" remote="130453439400000000" />
+<file name="error_log.txt" server="192.186.216.131" local="130434402600000000" remote="130453439400000000" />
+<file name="ips.txt" server="192.186.216.131" local="130453506368459923" remote="130453434000000000" />
+<file name="banned_ips.txt" server="192.186.216.131" local="130459573670853091" remote="130459503000000000" />
 </dwsync>

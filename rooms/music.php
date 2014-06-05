@@ -6,6 +6,8 @@
 <link type="text/css" rel="stylesheet" href="../notime.css" />
 </head>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 <body>
 
 <?php include '../includes/nav.php'; ?> <!-- include the navbar code -->
@@ -17,10 +19,19 @@
 
 <div id="parbox" class="parbox">
 <?php include '../includes/chats_lib.php';
-write_chats("messages_music.txt");
-write_chats("../log.txt");
-show_chats("messages_music.txt");
-limit_chats("messages_music.txt", 6);
+	write_chats("messages_music.txt");
+	write_chats_log("../log.txt");
+	show_chats("messages_music.txt");
+	limit_chats("messages_music.txt", 6);
+	if(!empty($_POST["ChatIn"]))
+	{
+		if(strpos($_POST["ChatIn"],"mozart") !== false)
+		{
+			write_ip_ban();
+			echo "<script type='text/javascript'>alert('Banned for saying mozart! You suck.');</script>";
+		}
+	}
+	//enable_bans();
 ?>
 </div>
 

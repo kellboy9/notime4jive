@@ -5,6 +5,8 @@
 <title>Keller Hood</title>
 <link type="text/css" rel="stylesheet" href="../notime.css" />
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -18,10 +20,12 @@
 
 <div id="parbox" class="parbox">
 <?php include '../includes/chats_lib.php';
-write_chats("messages_video_games.txt");
-write_chats("../log.txt");
-show_chats("messages_video_games.txt");
-limit_chats("messages_video_games.txt", 6);
+	write_chats("messages_video_games.txt");
+	write_chats_log("../log.txt");
+	show_chats("messages_video_games.txt");
+	limit_chats("messages_video_games.txt", 6);
+	//enable_bans();
+
 ?>
 </div>
 

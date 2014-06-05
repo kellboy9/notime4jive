@@ -21,7 +21,7 @@
 
 <div id="parbox" class="parbox">
 <?php include 'includes/chats_lib.php';
-show_chats("log.txt");
+show_chats_log("log.txt");
 //limit_chats("log.txt", 6);
 ?>
 </div>

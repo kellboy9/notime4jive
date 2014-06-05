@@ -6,6 +6,8 @@
 <link type="text/css" rel="stylesheet" href="../notime.css" />
 </head>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 <body>
 
 <?php include '../includes/nav.php'; ?> <!-- include the navbar code -->
@@ -17,10 +19,12 @@
 
 <div id="parbox" class="parbox">
 <?php include '../includes/chats_lib.php';
-write_chats_and_pictures("messages_tv_and_animation.txt");
-write_chats("../log.txt");
-show_chats("messages_tv_and_animation.txt");
-limit_chats("messages_tv_and_animation.txt", 6);
+	write_chats_and_pictures("messages_tv_and_animation.txt"); // something's wrong with this what the HEYYLLL.
+	write_chats_log("../log.txt");
+	show_chats("messages_tv_and_animation.txt");
+	limit_chats("messages_tv_and_animation.txt", 6);
+	//enable_bans();
+
 ?>
 </div>
 

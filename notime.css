@@ -10,6 +10,11 @@ nav
 	background-color: #EEE;
 }
 
+.red
+{
+	color:red;
+}
+
 .par
 {
 	padding: 30px;
