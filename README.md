@@ -1,4 +1,4 @@
 notime4jive
 ===========
 
-My site
+Anonymous non-realtime textboard website
